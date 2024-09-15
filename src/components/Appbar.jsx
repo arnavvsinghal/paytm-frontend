@@ -8,7 +8,7 @@ function Appbar({ firstLetter }) {
       <div className="bg-black rounded-full w-12 h-12 flex justify-center items-center m-2.5">
         <p className="text-white text-2xl">{firstLetter.toUpperCase()}</p>
       </div>
-      <div className="font-extrabold text-3xl m-2.5">PayTM</div>
+      <div className="font-extrabold text-3xl m-2.5">PayZap</div>
       <Button
         onClick={() => {
           localStorage.removeItem("token");
